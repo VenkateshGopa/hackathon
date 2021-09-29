@@ -112,6 +112,7 @@ function display(data) {
     // adding website to div-----------------------------------------
     const web = document.createElement("p");
     // checking for website if null it will display Not Available  else it will display website name.
+    web.id="web";
     if (element.website_url == null)
       web.innerHTML = `<i class="fa fa-globe" aria-hidden="true"></i> - Not Available`;
     else
