@@ -2,7 +2,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.315);
   margin: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #f1f1f1ce;
   border-radius: 8px;
 }
 .col-10:hover{
@@ -33,10 +33,28 @@ select{
 }
 #search{
     width: 25%;
+    margin-left: 5px;
 }
 #type{
     text-align: right;
     color: rgba(0, 0, 0, 0.842);
+}
+#social{
+    text-align: center;
+}
+#social i{
+color: rgba(255, 255, 255, 0.432);
+margin-left: 10px;
+}
+#social i:hover{
+    color: white;
+}
+#tech,#content {
+    color: rgba(255, 255, 255, 0.733);
+    text-align: center;
+}
+#tech span,#content span{
+    color: rgba(255, 255, 255, 0.473);
 }
 @media screen and (max-width: 520px){
     select{
@@ -48,5 +66,8 @@ select{
     #searchfield{
         text-align:center;
         margin-right: 0%;
+    }
+    #tech,#content,#social{
+        margin-top: 10px;
     }
 }
