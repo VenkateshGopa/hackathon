@@ -77,7 +77,7 @@ content.id="content";
 div.appendChild(content);
 // adding social media icons --------------------
 socialmedia = document.createElement("p");
-socialmedia.innerHTML=`<i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i> <i class="fab fa-google"></i> <i class="fab fa-linkedin-in"></i> <i class="fab fa-youtube"></i>`;
+socialmedia.innerHTML=`<a href="#" class="fab fa-facebook-f"></a> <a href="#" class="fab fa-twitter"></a> <a href="#" class="fab fa-google"></a> <a href="#" class="fab fa-linkedin-in"></a> <a href="#" class="fab fa-youtube"></a>`;
 socialmedia.id="social"
 div.appendChild(socialmedia);
 root.appendChild(div); // adding all things to main root element 
