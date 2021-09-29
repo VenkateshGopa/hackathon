@@ -42,11 +42,11 @@ select{
 #social{
     text-align: center;
 }
-#social i{
+#social a{
 color: rgba(255, 255, 255, 0.432);
 margin-left: 10px;
 }
-#social i:hover{
+#social a:hover{
     color: white;
 }
 #tech,#content {
